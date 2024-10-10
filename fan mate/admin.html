@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/css/all.min.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='asset/css/main.css'>
+    <title>ADMINISTRADOR</title>
+</head>
+<body>
+     <!-- MODULO INICIAR SESION-->
+     <div class="login-container">
+        <h2>Iniciar Sesión</h2>
+        <form id="login-form">
+          <label for="username">Usuario:</label>
+          <input type="text" id="username" placeholder="Ingresa tu usuario" required />
+      
+          <label for="password">Contraseña:</label>
+          <input type="password" id="password" placeholder="Ingresa tu contraseña" required />
+      
+          <button type="submit">Iniciar Sesión</button>
+        </form>
+      
+        <div id="login-message"></div>
+      </div>
+      <!-- INICIO DE AÑADIR PRODUCTOS-->
+      <aside> 
+ <div class="add-product-container"> 
+      <h2>Añadir Nuevo Producto</h2>
+  <form id="add-product-form">
+     
+    <label for="product-name">Nombre del Producto:</label>
+    <input type="text" id="product-name" required />
+
+    <label for="product-price">Precio:</label>
+    <input type="number" id="product-price" required />
+
+    <label for="product-category">Categoría:</label>
+    <input type="text" id="product-category" required />
+
+    <label for="product-image"> Imagen de producto:</label>
+    <input type="url" id="product-image" required />
+
+    <label for="product-description">Descripción:</label>
+    <textarea id="product-description" required></textarea>
+
+    <button type="submit">Añadir Producto</button>
+  </form>
+
+  <div id="add-product-message"></div>
+</div>
+</aside>
+    
+</body>
+</html>

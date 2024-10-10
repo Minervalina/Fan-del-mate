@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>FAN DEL MATE</title>
+    <link rel="shortcut icon" href="asset/images/logo2.png">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="asset/css/all.min.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='asset/css/main.css'>
+</head>
+
+<body>
+
+    <!-- ------------------- INICIO BANNER- ------------------------- -->
+
+    <section class="banner  in-stack">
+        <img class="banner-img" src="asset/images/mate.jpg" alt= "escritorio con productos de la categoria mates." aria-hidden="true" />
+        <div class="banner-title">
+           <h1 >FAN DEL MATE</h1><br>
+           <p id="subtitulobanner">Venta mayorista y minorista de equipos de mate</p>
+        </div>
+       
+        
+    </section>
+
+    <!----------------------------- FIN BANNER -------------------------------------- -->
+   
+    <header class="header theme-sky-dark in-line" id="header">
+
+        <!-- inicia marca del header -->
+
+        <div class="in-line">
+            <img class="branding-logo"
+                 src="asset/images/logo2.png"
+                 alt ="logotipo de FAN DEL MATE"
+                 aria-hidden="true" />
+            <p class="branding"
+               aria-label="Bienvenido a nuestra tienda on-line:">FAN DEL MATE</p>
+        </div>
+
+        <!-- finaliza marca del header-->
+         <!-- INICIA BOTON PRESENTACION-->
+      
+         <div>
+            <button
+                class="btn-cart in-line button button-simple-empty" 
+                aria-label="Catalogo completo" 
+                id="ir-a-seccion"> 
+                CATÁLOGO 
+            </button>
+        </div>
+          <!-- FIN DEL BOTON PRESENTACION-->
+
+        <!-- inicia boton cart-->
+
+        <div>
+            <button type="button"
+                    id="carritoBTN"
+                    class=" btn-cart in-line button button-simple-empty"
+                    aria-label="Mostrar productos agregados al carrito">
+                <i class="fas fa-shopping-cart cart-icon"
+                   aria-hidden="true"
+                   aria-live="polite"></i>
+                <div class= "cart-text">
+                    <p>Carrito (<span class="cart-qty">0</span>ítems)</p>
+                </div>
+                
+            </button>
+        </div>
+        <!--finaliza boton cart-->
+        
+          
+    </header>
+
+    <!---------------------- FIN HEADER ----------------------- -->
+
+      <!--  ------------------------- INICIO QUIÉNES SOMOS ----------------- -->
+
+<div class="presentacion theme-sky-dark">
+    <div class="texto-presentacion">
+    <h2>¿Quiénes somos?</h2>
+    <p>Somos un pequeño emprendimiento de Venado Tuerto, Santa Fe, dedicada a la venta de productos relacionados con el mate, como mates, termos, yerbas, bombillas y otros accesorios. Ofrecemos tanto ventas minoristas como mayoristas, garantizando productos de alta calidad para todos nuestros clientes amantes del mate.</p>
+    <p>Esta empresa comenzó como un proyecto de estudio para la materia "Innovación y Desarrollo Emprendedor" de la carrera de Desarrollo de Software en el IES Nº7. Somos amigos y compañeros, unidos por el amor al mate y la convicción de que compartir un mate fortalece los lazos de amistad.</p>
+    <p>Nuestro compromiso es ofrecerte la mejor experiencia, asegurando que disfrutes de un buen mate con productos duraderos y auténticos.</p>
+    </div>
+</div>
+
+  <!--  -------------------------FIN QUIÉNES SOMOS ----------------- -->
+
+  <div class="carousel">
+    
+    <h2> Productos destacados </h2>
+    
+    <div class="carousel-list" id="carousel-list">
+        <button class="carrusel-arrow carrusel-prev" id="button-prev" data-button="button-prev"
+                onclick="app.processingButton(event)" aria-label="prev">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left"
+                    class="svg-inline--fa fa-chevron-left fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 320 512">
+                    <path fill="currentColor"
+                        d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z">
+                    </path>
+                </svg>
+        </button>
+
+        <div class="carousel-track" id="track">
+
+            <div class="carrusel">
+                <div>
+                    <a href="">
+
+                        <picture>
+                            <img src="asset/images/matemama.jpg" alt="matefelizdiama">
+                        </picture>
+                    </a>
+                </div>
+            </div>
+            <div class="carrusel">
+                <div>
+                    <a href="">
+
+                        <picture>
+                            <img src="asset/images/matemuu.jpg" alt="matemuu">
+                        </picture>
+                    </a>
+                </div>
+            </div>
+            <div class="carrusel">
+                <div>
+                    <a href="">
+
+                        <picture>
+                            <img src="asset/images/matepersonalizado.jpeg" alt="matepersonalizado">
+                        </picture>
+                    </a>
+                </div>
+            </div>
+            <div class="carrusel">
+                <div>
+                    <a href="">
+
+                        <picture>
+                            <img src="asset/images/matealgarroboencerado.jpg" alt="matealgarroboencerado">
+                        </picture>
+                    </a>
+                </div>
+            </div>
+            <div class="carrusel">
+                <div>
+                    <a href="">
+
+                        <picture>
+                            <img src="asset/images/matedeluxe.jpg" alt="imperialdeluxe">
+                        </picture>
+                    </a>
+                </div>
+            </div>
+            <div class="carrusel">
+                <div>
+                    <a href="">
+
+                        <picture>
+                            <img src="asset/images/matetorpedo.jpg" alt="matetorpedo">
+                        </picture>
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+
+        <button class="carrusel-arrow carrusel-next" id="button-next" data-button="button-next"
+        onclick="app.processingButton(event)" aria-label="boton-next">
+            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right"
+                class="svg-inline--fa fa-chevron-right fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 320 512">
+                <path fill="currentColor"
+                d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z">
+                </path>
+            </svg>
+        </button>
+    </div>
+
+  </div>
+
+    <!--------------------------- INICIO CATALOGO  ------------------------------------->
+
+    <main id="shop">
+  
+
+            <!-- Inicio Catalogo de Productos  -->
+            <section class="products-container" id="seccion-destino">
+
+                <!--  Inicia header de productos  -->
+                <header class="products-header in-line theme-sky">
+                    <div>
+                        <p id="products-qty"
+                           aria-live="polite">Mostrando 8 producto(s) de 8</p>
+                    </div>
+                    <div>
+                        <button onclick="toggleMenu()" class="dropdown-btn btn-cart in-line button button-simple-empty">Categorias</button>
+        <div id="dropdown-menu" class="dropdown-content">
+            <a href="#">Mates</a>
+            <a href="#">Bombillas</a>
+            <a href="#">Termos</a>
+        </div>
+                    </div>
+
+<!--
+                    <div class="view-buttons-container in-line ">
+                        <div>
+                            <p aria-label="Modificar la vista de la lista de productos">
+                                Ver como</p>
+                        </div>
+                        <div id="view-button-grid">
+                            <button type="button" aria-label="Vista en mosaico">
+                                <i class="fas fa-th"
+                                   aria-hidden="true"
+                                   title="Mosaico"></i>
+                            </button>
+                        </div>
+                        <div id="view-button-list">
+                            <button type="button" aria-label="Vista en lista">
+                                <i class="fas fa-list" 
+                                   aria-hidden="true"
+                                   title="Lista"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <button
+                    type="button"
+                    class="open-filters-btn button button-simple-empty is-hidden"
+                    aria-label="Abrir filtros">
+                    <i class="fas fa-filter" aria-hidden="true"></i>
+                    <span class= "filter-text">Filtros</span>
+                   </button>
+                -->
+                </header>
+                <!--  fin header de productos  -->
+
+                <!--  Inicia listado Productos  -->
+
+                <div class="products-list in-grid">
+
+
+                    <article class="product"
+                             data-id="0"
+                             data-name="Mate Muu" 
+                             data-category="Mates"
+                             data-price="24990"
+                             data-image="asset/images/matemama.jpg" >
+
+                        <div class="product-img-container in-line">
+                            <img src="asset/images/matemama.jpg"
+                                 alt="Mate Feliz día ma! "
+                                 class="product-img" />
+                        </div>
+
+                        <div class="product-content in-stack">
+                            <h2 class="product-name">Mate Feliz día ma!</h2>
+                            <p class="product-price"
+                               aria-label="Precio en pesos argentinos:">
+                               $24.990,00</p>
+                            <div>
+                                <button type="button"
+                                        class="button button-simple-solid button-add-to-cart"
+                                        id= "0">
+                                    Comprar
+                                </button>
+                                                            
+                            </div>
+                        </div>
+                        <div class="product-description is-hidden">Mate de madera roble, estilisado en ecocuero rosa. Alto 15cm x 8cm diametro.
+                            </div>
+                    </article>
+
+                    <article class="product"
+                    data-id="1"
+                    data-name="Mate Muu" 
+                    data-category="Mates"
+                    data-price="79990"
+                    data-image="asset/images/matemuu.jpg" >
+
+               <div class="product-img-container in-line">
+                   <img src="asset/images/matemuu.jpg"
+                        alt="Mate Muu"
+                        class="product-img" />
+               </div>
+
+               <div class="product-content in-stack">
+                   <h2 class="product-name">Mate de algarrobo Muu</h2>
+                   <p class="product-price"
+                      aria-label="Precio en pesos argentinos:">
+                      $79.990,00</p>
+                   <div>
+                       <button type="button"
+                               class="button button-simple-solid button-add-to-cart"
+                               id= "1">
+                           Comprar
+                       </button>
+                                                   
+                   </div>
+               </div>
+               <div class="product-description is-hidden">Mate de madera roble, estilisado en ecocuero rosa. Alto 15cm x 8cm diametro.
+                   </div>
+           </article>
+
+           <article class="product"
+           data-id="3"
+           data-name="Mate Personalizado" 
+           data-category="Mates"
+           data-price="27990"
+           data-image="asset/images/matepersonalizado.jpeg" >
+
+      <div class="product-img-container in-line">
+          <img src="asset/images/matepersonalizado.jpeg"
+               alt="Mate personalizado "
+               class="product-img" />
+      </div>
+
+      <div class="product-content in-stack">
+          <h2 class="product-name">Mate personalizado</h2>
+          <p class="product-price"
+             aria-label="Precio en pesos argentinos:">
+             $27.990,00</p>
+          <div>
+              <button type="button"
+                      class="button button-simple-solid button-add-to-cart"
+                      id= "3">
+                  Comprar
+              </button>
+                                          
+          </div>
+      </div>
+      <div class="product-description is-hidden">Mate de madera roble, estilizado en ecocuero rosa. Alto 15cm x 8cm diametro.
+          </div>
+        </article>
+        
+        
+        <article class="product"
+        data-id="4"
+        data-name="Mate algarrobo encerado" 
+        data-category="Mates"
+        data-price="49990"
+        data-image="asset/images/matealgarroboencerado.jpg" >
+
+   <div class="product-img-container in-line">
+       <img src="asset/images/matealgarroboencerado.jpg"
+            alt="Mate algarrobo encerado "
+            class="product-img" />
+   </div>
+
+   <div class="product-content in-stack">
+       <h2 class="product-name">Mate de algarrobo encerado</h2>
+       <p class="product-price"
+          aria-label="Precio en pesos argentinos:">
+          $49.990,00</p>
+       <div>
+           <button type="button"
+                   class="button button-simple-solid button-add-to-cart"
+                   id= "4">
+               Comprar
+           </button>
+                                       
+       </div>
+   </div>
+   <div class="product-description is-hidden">Mate de madera roble, estilisado en ecocuero rosa. Alto 15cm x 8cm diametro.
+       </div>
+    </article>
+    
+    
+    <article class="product"
+    data-id="5"
+    data-name="Mate deluxe" 
+    data-category="Mates"
+    data-price="69900"
+    data-image="asset/images/matedeluxe.jpg" >
+
+<div class="product-img-container in-line">
+   <img src="asset/images/matedeluxe.jpg"
+        alt="Mate imperial deluxe "
+        class="product-img" />
+</div>
+
+<div class="product-content in-stack">
+   <h2 class="product-name">Mate imperial deluxe</h2>
+   <p class="product-price"
+      aria-label="Precio en pesos argentinos:">
+      $69.990,00</p>
+   <div>
+       <button type="button"
+               class="button button-simple-solid button-add-to-cart"
+               id= "5">
+           Comprar
+       </button>
+                                   
+   </div>
+</div>
+<div class="product-description is-hidden">Mate de madera roble, estilisado en ecocuero rosa. Alto 15cm x 8cm diametro.
+   </div>
+</article>
+<article class="product"
+    data-id="6"
+    data-name="Mate torpedo blanco" 
+    data-category="Mates"
+    data-price="78900"
+    data-image="asset/images/matetorpedo.jpg" >
+
+<div class="product-img-container in-line">
+   <img src="asset/images/matetorpedo.jpg"
+        alt="Mate torpedo blanco "
+        class="product-img" />
+</div>
+
+<div class="product-content in-stack">
+   <h2 class="product-name">Mate torpedo blanco</h2>
+   <p class="product-price"
+      aria-label="Precio en pesos argentinos:">
+      $78.990,00</p>
+   <div>
+       <button type="button"
+               class="button button-simple-solid button-add-to-cart"
+               id= "6">
+           Comprar
+       </button>
+                                   
+   </div>
+</div>
+<div class="product-description is-hidden">Mate de madera roble, estilisado en ecocuero rosa. Alto 15cm x 8cm diametro.
+   </div>
+</article>
+
+                    
+                    
+                    <!--  fin listado Productos  -->
+            </section>
+
+    </main>
+
+    <!----------------------------------------------- FIN CATALOGO -------------------- -->
+
+    <!--  -------------------------･ INICIO FOOTER ----------------- -->
+    <footer class="footer-main in-grid theme-sky-dark">
+        <div>
+            <a href="admin.html"
+               class="btn-login in-line button button-simple-empty"
+               aria-label="Ir a la página de administrador">
+                <i class="fas fa-sign-in-alt login-icon" aria-hidden="true"></i>
+                <span class="login-text">Administrador</span>
+            </a>
+        </div>
+        <div class="formasdepago">
+            <h3> TODOS LOS MEDIOS DE PAGO</h3> <br>
+            <div class="imagenespagos">
+            <img src="asset/images/mediosdepago/american-express.png" alt="american-express">
+            <img src="asset/images/mediosdepago/argencard.png" alt="argencard">
+            <img src="asset/images/mediosdepago/cabal.png" alt="cabal">
+            <img src="asset/images/mediosdepago/diners-club.png" alt="diners-club">
+            <img src="asset/images/mediosdepago/efectivo.png" alt="efectivo">
+            <img src="asset/images/mediosdepago/maestro.png" alt="maestro">
+            <img src="asset/images/mediosdepago/mastercard.png" alt="mastercard">
+            <img src="asset/images/mediosdepago/mercadopago.png" alt="mercadopago">
+            <img src="asset/images/mediosdepago/naranja.png" alt="naranja">
+            <img src="asset/images/mediosdepago/nativa.png" alt="nativa">
+            <img src="asset/images/mediosdepago/pagofacil.png" alt="pagofacil">
+            <img src="asset/images/mediosdepago/rapipago.png" alt="rapipago">
+            <img src="asset/images/mediosdepago/visa.png" alt="visa">
+            </div>
+        </div>
+        <div class="Contactos">
+            <h3> CONTACTO </h3> <br>
+            <p> fandelmate@gmail.com </p> <br>
+            <p> Av. Estrugamou 250, Venado Tuerto, Santa Fe, Argentina.</p>
+         </div>
+    </footer>
+    <!-------------------------------- FIN FOOTER---------------------- -->
+
+    <!-- ------------------------- INICIO MENU CARRITO ------------------------´ -->
+
+    <div class="header-menu-add-to-card theme-sky-dark menu-add-to-card-hidde is-hidden ">
+        <div class="cart-container in-stack">
+            <div class="cart-title-container in-line">
+                <h2>CARRITO</h2>
+                <button type="button" class="btn-close">
+                    <i class="far fa-window-close"
+                    aria-label="Cerrar"></i>
+                </button>
+            </div>
+            <div class= "cart-full"> 
+                
+                <div class="in-line">
+                <p><span class="cart-qty">0</span> producto(s) agregado(s)</p>
+                </div>
+                
+                <div class="cart-products-added">
+                </div>
+            
+                <div class=" add-to-card-buttons">
+                
+                    <button type="button" class="btn-buy button
+                button-simple-solid-reverse">
+                    COMPRAR
+                    </button>
+                
+                    <button type="button" class="btn-empty-cart btn-buy button
+                button-simple-empty ">
+                    VACIAR
+                    </button>   
+                </div>     
+                
+                <div class="subtotal-container in-line">
+                <p> Subtotal $ <span class="cart-subtotal-value">0</span></p>
+                </div>
+        </div>
+        <!--  MENSAJE DE CARRITO VACÍO -->
+            <div class="cart-empty is-hidden">
+                <p class="cart-empty-msg ">
+                    No tienes productos en el carrito, ¡Agrega algunos!
+                </p>
+            </div>      
+        </div>
+    </div>
+    <!-------------------------------  FIN MENU CARRITO-------------------------------- -->
+
+    <!------------------------------  INICIO CONFIRMACION DE COMPRA--------------------- -->
+    <div class="menu-checkout in-stack is-hidden">
+        <h2 class="checkout-title">Checkout</h2>
+        <div class= "checkout-container in-line">
+            <div class= "form-container">
+                <form>
+                    <fieldset class="checkout-info in-stack">             
+                        <div class="checkout-personal-info">
+                            <legend class="info-title">Datos Personales</legend>
+                            <div class="checkout-personal-info-inputs ">
+                                <label for= "nameAndSurname">
+                                    Nombre y apellido *
+                                    <input type="text" 
+                                        placeholder="p. ej.: PC Lovelace" 
+                                        name="Nombre y Apellido" required 
+                                        id="nameAndSurname" />
+                                </label>
+                                <label for="email">
+                                    Email *
+                                    <input type="email" 
+                                        placeholder="p. ej.: PC.lovelace@gmail.com" required
+                                        id="email" />
+                                </label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <!-- *** [ Comiezo Opciones de Pago ] *** -->
+                    <fieldset class="checkout-payment in-stack">
+                        <div class="checkout-section-container in-stack">
+                            <legend class="info-title">Opciones de pago</legend>
+                            <label for="cash-debit">
+                                <input type="radio" 
+                                       class= "pay-option"
+                                       name="payment" 
+                                       value="cash-debit" 
+                                       checked 
+                                       id="cash-debit"/>
+                                       Efectivo / Débito
+                                </input>
+                            </label>
+                            <label for="credit">
+                                <input type="radio" 
+                                       class= "pay-option"
+                                       name="payment" 
+                                       value="credit" 
+                                       id="credit"/>
+                                       Tarjeta de crédito
+                                </input>
+                            </label>
+                            <label for="delivery">
+                                <input type="checkbox" 
+                                       class= "pay-option"
+                                       name="delivery" 
+                                       id="delivery"/> 
+                                       Necesito envío
+                            </label>
+                            <label for="discount">
+                                <input type="checkbox" 
+                                       class= "pay-option"
+                                       name="discount" 
+                                       id="discount"/> 
+                                       Tengo tarjeta de descuento
+                            </label>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+            <!-- *** [ Fin Opciones de Pago ] *** -->
+
+            <!-- *** [ Comienzo Subtotales ] *** -->
+            <div class="cart-totals in-stack">
+                <h3 class="info-title">Resumen</h3>
+                <div>
+                    <p class="cart-subtotal">
+                        Subtotal $ <span class="cart-subtotal-value">0</span>
+                    </p>
+                    <p class="cart-tax is-hidden">
+                        Recargo $<span class="cart-tax-value">0</span>
+                    </p>
+                    <p class="cart-discount is-hidden">
+                        Descuento 10% $<span class="cart-discount-value">0</span>
+                    </p>
+                    <p class="cart-delivery is-hidden">
+                        Envío $<span class="cart-delivery-value">0</span>
+                    </p>
+                    <p class="cart-total">
+                        Total: $ <span class="cart-total-value">0</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- *** [ Fin Subtotales ] *** -->
+
+        <footer class="footer-checkout in-line">
+            <button type="button" class="btn-cancel-buy button button-simple-solid">
+                Seguir comprando
+            </button>
+            <button type="button" class="btn-finish-buy button button-simple-solid-reverse">
+                Finalizar
+            </button>
+        </footer>
+    </div>
+
+    <!-- ---------------------- FIN CONFIRMACION DE COMPRA --------------- -->
+
+    <!--  --------------------  INICIO MODAL VACIAR CARRITO -------------------- -->
+    
+    <div class="modal-empty-cart in-stack is-hidden"  
+         aria-role="dialog"
+         aria-modal="true"
+         aria-describedby="empty-cart-description"
+         aria-hidden="true">
+
+        <p class="modal-message" id="empty-cart-description">
+            Estás por vaciar el carrito, ¿quieres continuar?
+        </p>
+        <footer class="modal-btn-container">
+            <button type="button" class="button button-simple-solid-reverse cancel-empty-cart-btn">
+                Cancelar
+            </button>
+            <button type="button" class="button button-simple-solid confirm-cart-empty-btn">
+                Vaciar
+            </button>
+        </footer>
+    </div>
+    <div class="overlay is-hidden" id="overlay"></div>
+        <!-- ------------- FIN MODAL VACIAR CARRITO ------------------ -->
+        
+          
+        
+        <script src="asset/js/index.js"></script>
+</body>
+
+</html>
